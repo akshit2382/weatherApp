@@ -18,7 +18,7 @@ weatherForm.addEventListener('submit', (e) => {
                 messageOne.textContent = data.error
             else {
                 messageOne.textContent = data.location
-                messageTwo.textContent = data.weather + ". It is " + data.temp+" degree celsius outside and there is "+data.precip+"% cahnces of rain!"
+                messageTwo.textContent = data.weather + ". It is " + data.temp+" degree celsius outside and there is "+data.precip+"% chances of rain!"
             }
         })
     })
